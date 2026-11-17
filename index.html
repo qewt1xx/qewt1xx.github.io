@@ -1,232 +1,27 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#090b10">
-<meta name="description" content="qewt1xx | Russian, 18, Prague. CS2, HOI4, GeoGuessr, PUBG, Metro.">
-<title>qewt1xx</title>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#090b11"><meta name="description" content="qewt1xx · Prague · guitarist of Caution 282 · gaming and music">
+<title>qewt1xx | Caution 282</title>
 <style>
-  * { box-sizing: border-box; }
-
-  body {
-    margin: 0;
-    min-height: 100vh;
-    background: #090b10;
-    color: #f2f3f7;
-    font-family: Inter, "Segoe UI", Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 40px 20px;
-  }
-
-  main {
-    width: 100%;
-    max-width: 440px;
-    text-align: center;
-  }
-
-  .avatar {
-    width: 78px;
-    height: 78px;
-    border-radius: 23px;
-    background: linear-gradient(145deg, #282e40, #12151e);
-    border: 1px solid #373d4b;
-    display: grid;
-    place-items: center;
-    font-size: 34px;
-    font-weight: 700;
-    margin: 0 auto 22px;
-    color: #b6bfff;
-  }
-
-  h1 {
-    font-size: 38px;
-    letter-spacing: -1.7px;
-    margin: 0 0 12px;
-  }
-
-  .bio {
-    color: #9ba2b3;
-    font-size: 14px;
-    letter-spacing: .3px;
-  }
-
-  .dot { color: #626b81; margin: 0 6px; }
-
-  .links {
-    display: grid;
-    gap: 11px;
-    margin: 38px 0;
-  }
-
-  .link {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 17px 20px;
-    background: #151923;
-    border: 1px solid #252b38;
-    border-radius: 13px;
-    color: #e7eaf3;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 600;
-    transition: .2s;
-  }
-
-  .link:hover {
-    background: #202637;
-    border-color: #6978ab;
-    transform: translateY(-2px);
-  }
-
-  .arrow { color: #8992a9; }
-
-  .section { margin: 36px 0; }
-
-  .label {
-    font-size: 10px;
-    color: #737d93;
-    letter-spacing: 3px;
-    font-weight: 700;
-    margin-bottom: 18px;
-  }
-
-  .games {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 9px;
-  }
-
-  .game {
-    background: #171b25;
-    border: 1px solid #282e3a;
-    border-radius: 7px;
-    padding: 9px 12px;
-    color: #c6cbd7;
-    font-size: 12px;
-  }
-
-  .friends {
-    font-size: 14px;
-    color: #c4cad8;
-    line-height: 2;
-  }
-
-  .heart {
-    color: #f18ca7;
-    font-size: 19px;
-    margin-top: 5px;
-  }
-
-  footer {
-    margin-top: 55px;
-    padding-top: 24px;
-    border-top: 1px solid #222733;
-  }
-
-  .flag {
-    width: 30px;
-    height: 20px;
-    margin: 0 auto 11px;
-    border-radius: 3px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .flag div { flex: 1; }
-  .blue { background: #0057b7; }
-  .yellow { background: #ffd700; }
-
-  .footer-heart {
-    font-size: 14px;
-    color: #e99bb0;
-  }
-
-  .copyright {
-    color: #50596b;
-    font-size: 11px;
-    margin-top: 18px;
-  }
+:root{color-scheme:dark;--bg:#090b11;--panel:#121620;--border:#29303d;--text:#f4f5f8;--muted:#9ba5b8;--accent:#b2a0ff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse 80% 35% at 50% -5%,#252044 0%,transparent 80%),var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,Segoe UI,Arial,sans-serif}a{color:inherit;text-decoration:none}.wrap{max-width:970px;margin:auto;padding:48px 22px 32px}.top{display:flex;align-items:center;justify-content:space-between;gap:15px;margin-bottom:65px}.brand{font-weight:850;letter-spacing:-.7px;font-size:20px}.status{font-size:12px;border:1px solid #3d4354;color:#bec5d5;border-radius:99px;padding:5px 12px}.dot{display:inline-block;background:#8ee2ab;width:7px;height:7px;border-radius:50%;margin-right:7px}.hero{padding:0 0 45px}.eyebrow{color:var(--accent);text-transform:uppercase;letter-spacing:3px;font-size:12px;font-weight:750}.hero h1{font-size:clamp(56px,11vw,105px);letter-spacing:-6px;line-height:1.1;margin:14px 0}.hero p{color:var(--muted);font-size:18px;margin:0}.pillrow{display:flex;gap:9px;flex-wrap:wrap;margin-top:24px}.pill{border:1px solid var(--border);background:#171b25;padding:7px 13px;border-radius:50px;font-size:13px;color:#c4cbd8}.section-head{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;color:#a4adc0;margin:34px 0 15px;font-weight:800}.links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.link{position:relative;display:flex;align-items:center;gap:14px;min-height:112px;padding:19px;border:1px solid var(--border);background:linear-gradient(145deg,#191d2a,#11151e);border-radius:19px;transition:transform .2s,border-color .2s,background .2s}.link:hover{transform:translateY(-4px);border-color:#8075bd;background:#1d2130}.link .ico{display:grid;place-items:center;flex:0 0 47px;width:47px;height:47px;border-radius:13px;background:#292c38}.ico svg{width:27px;height:27px}.link strong{display:block;font-size:16px}.link small{display:block;color:var(--muted);font-size:12px}.arrow{margin-left:auto;color:#8790a2;font-size:20px}.band{display:grid;grid-template-columns:250px 1fr;gap:28px;align-items:center;border:1px solid #3d394c;border-radius:24px;padding:23px;background:linear-gradient(110deg,#1c1b28,#12141d);overflow:hidden}.band img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:15px;box-shadow:0 14px 35px #0008}.band .eyebrow{color:#c4b9fa}.band h2{font-size:clamp(30px,5vw,48px);letter-spacing:-2px;line-height:1.1;margin:11px 0 14px}.band p{color:#c0c5d0;margin:0 0 12px}.band .caption{font-size:13px;color:#9198aa}.games{display:flex;flex-wrap:wrap;gap:10px}.game{border:1px solid var(--border);border-radius:11px;padding:11px 15px;background:#151924;color:#d2d8e3;font-weight:600;font-size:14px}.friends{text-align:center;border:1px solid var(--border);border-radius:18px;background:#11151d;padding:24px 15px}.friends p{margin:0;font-weight:650}.heart{color:#d7a1c7;font-size:24px;margin-top:5px}.foot{display:flex;justify-content:space-between;align-items:center;border-top:1px solid var(--border);margin-top:55px;padding-top:24px;color:#7e8799;font-size:13px}.ukr{font-size:19px}.ukr span{color:#e0a2b7}@media(max-width:720px){.wrap{padding-top:24px}.top{margin-bottom:45px}.links{grid-template-columns:1fr}.link{min-height:85px}.band{grid-template-columns:1fr}.band img{max-width:310px;margin:auto}.hero h1{letter-spacing:-3px}.foot{gap:10px}}
 </style>
 </head>
-<body>
-<main>
-
-  <div class="avatar">q</div>
-  <h1>qewt1xx</h1>
-
-  <div class="bio">
-    Prague <span class="dot">·</span>
-    18yo <span class="dot">·</span>
-    Russian
-  </div>
-
-  <div class="links">
-    <a class="link"
-       href="https://steamcommunity.com/profiles/76561199070666802/"
-       target="_blank" rel="noopener noreferrer">
-      <span>Steam / Main</span>
-      <span class="arrow">↗</span>
-    </a>
-
-    <a class="link"
-       href="https://steamcommunity.com/profiles/76561199741811877"
-       target="_blank" rel="noopener noreferrer">
-      <span>Steam / CS2</span>
-      <span class="arrow">↗</span>
-    </a>
-
-    <a class="link"
-       href="https://open.spotify.com/user/313xrr7dwqqmev5ik2pvzpscqszq"
-       target="_blank" rel="noopener noreferrer">
-      <span>Spotify / qewt1xx</span>
-      <span class="arrow">↗</span>
-    </a>
-
-    <a class="link"
-       href="https://t.me/qewt1xx52"
-       target="_blank" rel="noopener noreferrer">
-      <span>Telegram / @qewt1xx52</span>
-      <span class="arrow">↗</span>
-    </a>
-  </div>
-
-  <section class="section">
-    <div class="label">GAMES</div>
-    <div class="games">
-      <span class="game">CS2</span>
-      <span class="game">HOI4</span>
-      <span class="game">GeoGuessr</span>
-      <span class="game">PUBG</span>
-      <span class="game">Metro</span>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="label">MY PEOPLE</div>
-    <div class="friends">
-      pinowkaa <span class="dot">·</span>
-      starlaky <span class="dot">·</span>
-      natriX365
-    </div>
-    <div class="heart">♥</div>
-  </section>
-
-  <footer>
-    <div class="flag">
-      <div class="blue"></div>
-      <div class="yellow"></div>
-    </div>
-    <div class="footer-heart">♥</div>
-    <div class="copyright">© qewt1xx</div>
-  </footer>
-
-</main>
-</body>
-</html>
+<body><main class="wrap">
+<header class="top"><div class="brand">qewt1xx<span style="color:#a79be4">.</span></div><div class="status"><span class="dot"></span>Prague, CZ</div></header>
+<section class="hero"><div class="eyebrow">Personal space / online</div><h1>qewt1xx<span style="color:#ad9ef6">.</span></h1><p>Prague · 18yo · Russian<br>Guitarist · Gamer · Music enthusiast</p><div class="pillrow"><span class="pill">🎸 Caution 282</span><span class="pill">🎮 CS2</span><span class="pill">🎵 Metal & Punk Rock</span></div></section>
+<div class="section-head">Find me online</div>
+<section class="links">
+<a class="link" href="https://open.spotify.com/user/313xrr7dwqqmev5ik2pvzpscqszq" target="_blank" rel="noopener noreferrer"><span class="ico" style="background:#163b2c"><svg viewBox="0 0 24 24" fill="#1ed760" aria-hidden="true"><path d="M12 0a12 12 0 1 0 0 24 12 12 0 0 0 0-24Zm5.5 17.3a.75.75 0 0 1-1.04.25c-2.86-1.75-6.47-2.14-10.74-1.17a.75.75 0 1 1-.34-1.46c4.67-1.07 8.65-.61 11.87 1.36.35.21.46.67.25 1.02Zm1.47-3.27a.94.94 0 0 1-1.29.31c-3.27-2-8.25-2.58-12.11-1.41a.94.94 0 1 1-.55-1.8c4.41-1.34 9.9-.7 13.64 1.59.44.27.58.85.31 1.31Zm.13-3.4c-3.93-2.34-10.4-2.55-14.16-1.41a1.12 1.12 0 1 1-.65-2.14c4.32-1.31 11.45-1.06 15.95 1.61a1.12 1.12 0 0 1-1.14 1.94Z"/></svg></span><span><strong>Spotify</strong><small>My music</small></span><span class="arrow">↗</span></a>
+<a class="link" href="https://t.me/qewt1xx52" target="_blank" rel="noopener noreferrer"><span class="ico" style="background:#17384b"><svg viewBox="0 0 24 24" fill="#37aee2" aria-hidden="true"><path d="M22 2 1.6 9.9c-1.4.55-1.39 1.33-.25 1.68l5.25 1.64 2.03 6.27c.25.7.12.97.86.97.57 0 .83-.26 1.15-.57l2.78-2.7 5.79 4.28c1.07.59 1.84.29 2.11-.99L24 3.46C24.4 1.91 23.4 1.2 22 2ZM7.4 12.85l11.99-7.56c.6-.36 1.15-.17.7.23l-9.86 8.9-.38 4.09-2.45-5.66Z"/></svg></span><span><strong>Telegram</strong><small>Get in touch</small></span><span class="arrow">↗</span></a>
+<a class="link" href="https://steamcommunity.com/profiles/76561199070666802/" target="_blank" rel="noopener noreferrer"><span class="ico" style="background:#253448"><svg viewBox="0 0 24 24" fill="#dce6f6" aria-hidden="true"><path d="M12 0a12 12 0 0 0-12 12c0 1.12.15 2.21.44 3.24l5.82 2.41a3.4 3.4 0 0 0 1.94.57l2.66 1.1a4.55 4.55 0 1 0 2.58-8.55l-1.06-.43a6.13 6.13 0 1 1 5.87 4.37 6.04 6.04 0 0 1-2.3-.45 4.55 4.55 0 0 0-2.22 4.5A12 12 0 1 0 12 0ZM6.35 20.5l-3.67-1.52a12 12 0 0 0 6.28 4.54 4.54 0 0 1-2.61 1.52Zm2.52-1.56a2.62 2.62 0 1 1 2.03-4.23 2.62 2.62 0 0 1-2.03 4.23Zm9.34-7.47a3.87 3.87 0 1 0 0-7.74 3.87 3.87 0 0 0 0 7.74Zm0-1.29a2.58 2.58 0 1 1 0-5.16 2.58 2.58 0 0 1 0 5.16Z"/></svg></span><span><strong>Steam</strong><small>Main account</small></span><span class="arrow">↗</span></a>
+<a class="link" href="https://steamcommunity.com/profiles/76561199741811877" target="_blank" rel="noopener noreferrer"><span class="ico" style="background:#253448"><svg viewBox="0 0 24 24" fill="#dce6f6" aria-hidden="true"><path d="M12 0a12 12 0 0 0-12 12c0 1.12.15 2.21.44 3.24l5.82 2.41a3.4 3.4 0 0 0 1.94.57l2.66 1.1a4.55 4.55 0 1 0 2.58-8.55l-1.06-.43a6.13 6.13 0 1 1 5.87 4.37 6.04 6.04 0 0 1-2.3-.45 4.55 4.55 0 0 0-2.22 4.5A12 12 0 1 0 12 0ZM6.35 20.5l-3.67-1.52a12 12 0 0 0 6.28 4.54 4.54 0 0 1-2.61 1.52Zm2.52-1.56a2.62 2.62 0 1 1 2.03-4.23 2.62 2.62 0 0 1-2.03 4.23Zm9.34-7.47a3.87 3.87 0 1 0 0-7.74 3.87 3.87 0 0 0 0 7.74Zm0-1.29a2.58 2.58 0 1 1 0-5.16 2.58 2.58 0 0 1 0 5.16Z"/></svg></span><span><strong>Steam CS2</strong><small>Counter-Strike profile</small></span><span class="arrow">↗</span></a>
+</section>
+<div class="section-head">The band</div>
+<section class="band"><img src="caution282.jpg" alt="Official Caution 282 band logo"><div><div class="eyebrow">Music project</div><h2>CAUTION 282</h2><p>I'm a guitarist in <strong>Caution 282</strong>, a rock and metal band based in Prague.</p><div class="caption">Guitars. Distortion. Original music in progress.</div></div></section>
+<div class="section-head">Games I play</div><section class="games"><span class="game">Counter-Strike 2</span><span class="game">Hearts of Iron IV</span><span class="game">GeoGuessr</span><span class="game">PUBG</span><span class="game">Metro</span></section>
+<div class="section-head">Friends</div><section class="friends"><p>pinowkaa · starlaky · natriX365</p><div class="heart">♥</div></section>
+<footer class="foot"><span>© 2026 qewt1xx · Prague</span><span class="ukr">🇺🇦 <span>♥</span></span></footer>
+</main></body></html>
