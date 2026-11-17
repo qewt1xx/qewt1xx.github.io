@@ -1,0 +1,220 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#090b10">
+<meta name="description" content="qewt1xx | Russian, 18, Prague. CS2, HOI4, GeoGuessr, PUBG, Metro.">
+<title>qewt1xx</title>
+<style>
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background: #090b10;
+    color: #f2f3f7;
+    font-family: Inter, "Segoe UI", Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+  }
+
+  main {
+    width: 100%;
+    max-width: 440px;
+    text-align: center;
+  }
+
+  .avatar {
+    width: 78px;
+    height: 78px;
+    border-radius: 23px;
+    background: linear-gradient(145deg, #282e40, #12151e);
+    border: 1px solid #373d4b;
+    display: grid;
+    place-items: center;
+    font-size: 34px;
+    font-weight: 700;
+    margin: 0 auto 22px;
+    color: #b6bfff;
+  }
+
+  h1 {
+    font-size: 38px;
+    letter-spacing: -1.7px;
+    margin: 0 0 12px;
+  }
+
+  .bio {
+    color: #9ba2b3;
+    font-size: 14px;
+    letter-spacing: .3px;
+  }
+
+  .dot { color: #626b81; margin: 0 6px; }
+
+  .links {
+    display: grid;
+    gap: 11px;
+    margin: 38px 0;
+  }
+
+  .link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 17px 20px;
+    background: #151923;
+    border: 1px solid #252b38;
+    border-radius: 13px;
+    color: #e7eaf3;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    transition: .2s;
+  }
+
+  .link:hover {
+    background: #202637;
+    border-color: #6978ab;
+    transform: translateY(-2px);
+  }
+
+  .arrow { color: #8992a9; }
+
+  .section { margin: 36px 0; }
+
+  .label {
+    font-size: 10px;
+    color: #737d93;
+    letter-spacing: 3px;
+    font-weight: 700;
+    margin-bottom: 18px;
+  }
+
+  .games {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 9px;
+  }
+
+  .game {
+    background: #171b25;
+    border: 1px solid #282e3a;
+    border-radius: 7px;
+    padding: 9px 12px;
+    color: #c6cbd7;
+    font-size: 12px;
+  }
+
+  .friends {
+    font-size: 14px;
+    color: #c4cad8;
+    line-height: 2;
+  }
+
+  .heart { color: #f18ca7; }
+
+  footer {
+    margin-top: 55px;
+    padding-top: 24px;
+    border-top: 1px solid #222733;
+  }
+
+  .flag {
+    width: 30px;
+    height: 20px;
+    margin: 0 auto 11px;
+    border-radius: 3px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flag div { flex: 1; }
+  .blue { background: #0057b7; }
+  .yellow { background: #ffd700; }
+
+  .footer-heart {
+    font-size: 14px;
+    color: #e99bb0;
+  }
+
+  .copyright {
+    color: #50596b;
+    font-size: 11px;
+    margin-top: 18px;
+  }
+</style>
+</head>
+<body>
+<main>
+
+  <div class="avatar">q</div>
+  <h1>qewt1xx</h1>
+
+  <div class="bio">
+    Prague <span class="dot">·</span>
+    18yo <span class="dot">·</span>
+    Russian
+  </div>
+
+  <div class="links">
+    <a class="link"
+       href="https://steamcommunity.com/profiles/76561199070666802/"
+       target="_blank" rel="noopener noreferrer">
+      <span>Steam / Main</span>
+      <span class="arrow">↗</span>
+    </a>
+
+    <a class="link"
+       href="https://steamcommunity.com/profiles/76561199741811877"
+       target="_blank" rel="noopener noreferrer">
+      <span>Steam / CS2</span>
+      <span class="arrow">↗</span>
+    </a>
+
+    <a class="link"
+       href="https://open.spotify.com/user/313xrr7dwqqmev5ik2pvzpscqszq"
+       target="_blank" rel="noopener noreferrer">
+      <span>Spotify / qewt1xx</span>
+      <span class="arrow">↗</span>
+    </a>
+  </div>
+
+  <section class="section">
+    <div class="label">GAMES</div>
+    <div class="games">
+      <span class="game">CS2</span>
+      <span class="game">HOI4</span>
+      <span class="game">GeoGuessr</span>
+      <span class="game">PUBG</span>
+      <span class="game">Metro</span>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="label">MY PEOPLE</div>
+    <div class="friends">
+      pinowkaa <span class="dot">·</span>
+      starlaky <span class="dot">·</span>
+      natriX365 <span class="heart">♥</span>
+    </div>
+  </section>
+
+  <footer>
+    <div class="flag">
+      <div class="blue"></div>
+      <div class="yellow"></div>
+    </div>
+    <div class="footer-heart">♥</div>
+    <div class="copyright">© qewt1xx</div>
+  </footer>
+
+</main>
+</body>
+</html>
